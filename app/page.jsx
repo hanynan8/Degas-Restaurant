@@ -78,22 +78,6 @@ function HeroSection() {
       }}
     >
       <section className="relative z-10 flex flex-col items-center justify-center flex-1 text-center px-4 mb-16">
-        <h1 className="flex items-baseline gap-3 mb-4 select-none">
-          <span className="relative font-['Amiri'] text-[clamp(4rem,9vw,13rem)] font-normal leading-none text-[white]">
-            جدو
-            <svg className="absolute bottom-0 right-0 w-full" height="4" style={{ overflow: 'visible' }}>
-              <line x1="32%" y1="-20" x2="72%" y2="-20" stroke="white" strokeWidth="2.5" />
-              <text x="24%" y="0" textAnchor="middle" fill="white" fontSize="80" fontWeight="700" fontFamily="'Amiri', serif">ُ</text>
-            </svg>
-          </span>
-          <span className="relative font-['Amiri'] text-[clamp(4rem,9vw,13rem)] font-normal leading-none text-[white]">
-            عبدو
-            <svg className="absolute bottom-0 right-0 w-full" height="4" style={{ overflow: 'visible' }}>
-              <line x1="27%" y1="-500%" x2="56%" y2="-500%" stroke="white" strokeWidth="2.5" />
-              <text x="23%" y="0" textAnchor="middle" fill="white" fontSize="80" fontWeight="700" fontFamily="'Amiri', serif">ُ</text>
-            </svg>
-          </span>
-        </h1>
         <div className="flex items-center gap-3 mb-2">
           <span className="block w-12 h-[1px] bg-white/40" />
           <svg viewBox="0 0 24 24" className="w-5 h-5 text-white/40 fill-current" aria-hidden="true">
